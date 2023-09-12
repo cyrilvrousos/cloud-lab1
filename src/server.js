@@ -1,5 +1,5 @@
-import http from "http";
-import { PrismaClient } from '@prisma/client';
+const http = require("http");
+const { PrismaClient } = require('@prisma/client');
 
 const host = '0.0.0.0';
 const port = 8000;
